@@ -8,7 +8,6 @@ function Format-Colorfile {
         This is based on a PowerShell filter from
         the very first Monad book.
     .NOTES
-    .LINK
     .EXAMPLE
         "Get-ChildItem c:\windows | Format-Colorfile"
     .INPUTS
