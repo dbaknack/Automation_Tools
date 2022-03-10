@@ -9,7 +9,8 @@ function Format-Colorfile {
         the very first Monad book.
     .NOTES
     .EXAMPLE
-        "Get-ChildItem c:\windows | Format-Colorfile"
+        "Get-ChildItem c:\windows | Format-Colorfile "
+        "https://github.com/dbaknack"
     .INPUTS
         output of Get-ChildItem
     .OUTPUTS
