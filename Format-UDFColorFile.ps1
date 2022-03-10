@@ -12,7 +12,7 @@ function Format-Colorfile {
         "Get-ChildItem c:\windows | Format-Colorfile "
         "https://github.com/dbaknack"
     .INPUTS
-        output of Get-ChildItem
+        output of Get-ChildItem #
     .OUTPUTS
         None
     .PARAMETER file
