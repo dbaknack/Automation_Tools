@@ -2,7 +2,7 @@
  when using pw to create a user account, i can't control the format of the display name.
  the GUI tool defaults to displaying the name as first name followed by last name.
 
-this names browsing more difficult since first names tend not to as selective as last names.
+this name browsing more difficult since first names tend not to as selective as last names.
 
 task: modify the way display names are created when using the GUI tools. change default behavior
 #>
