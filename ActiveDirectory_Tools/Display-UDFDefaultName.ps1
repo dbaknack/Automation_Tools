@@ -11,7 +11,7 @@ $dispspec   = [ADSI] ("LDAP://cn=User-Display,cn=409,cn=DisplaySpecifiers," + $r
 $dispspec.CreateDialog = "%<sn> %<givenName>"
 $dispspec.SetInfo()
 
-$disp = [ADSI]("LDAP://,cn=409,cn=DisplaySpecifiers," + rootDSE.ConfigurationNamingContext)
+$disp = [ADSI]("LDAP://,cn=409,cn=DisplaySpecifiers,"+rootDSE.ConfigurationNamingContext)
 $disp.children
 
 Get-ADObject  `
