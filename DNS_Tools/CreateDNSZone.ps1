@@ -1,6 +1,6 @@
 $zone = [wmiclass]"\\csdc1\root\MicrosoftDNS:MicrosoftDNS_Zone"
-$zone.CreateZone("DEVLab.com",0,$true)                  # <-- forward zone
-$zone.CreateZone("175.168.192.in-addr.arpa",0,$true)    # <-- reverse zone
+$zone.CreateZone("DEVLab.com",0,$true)                              # <-- forward zone
+$zone.CreateZone("175.168.192.in-addr.arpa",0,$true)                # <-- reverse zone
 
 # view zone configuration 
 # zone list
